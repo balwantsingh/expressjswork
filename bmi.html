@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500;700&display=swap" rel="stylesheet">
+<style>
+    * {font-family: 'Josefin Slab', serif;padding:0;margin:0;}
+    div {height:100vh;
+    display:flex;
+    justify-content:center; align-items:center;
+    flex-direction: column;
+    text-align: center;
+    }
+    .form-control {
+        height: 50px;
+        width:100%;
+        border-radius: 7px;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+        font-size:18px;
+    }
+    button {
+        width:100%;
+        display: block;
+        padding: 5px 10px;
+        font-size:22px;
+    }
+</style>
+</head>
+<body>
+    <div class="centerdiv">
+        <h1>BMI calculator</h1>
+        <br>
+        <form method="post">
+            <input type="text" name="weight" class="form-control" placeholder="enter your no.">
+            <br>
+            <input type="text" name="height"  class="form-control" placeholder="enter your no.">
+            <br>
+            <button type="submit">Calculator</button>
+        </form>
+    </div>
+   
+</body>
+</html>
